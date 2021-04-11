@@ -65,6 +65,7 @@
 			<property name="maxLinesCountBeforeWithoutComment" value="1"/>
 		</properties>
 	</rule>
+	<rule ref="SlevomatCodingStandard.Classes.TraitUseDeclaration"/>
 	<rule ref="SlevomatCodingStandard.Classes.TraitUseSpacing">
 		<properties>
 			<property name="linesCountBeforeFirstUse" value="1"/>
@@ -82,6 +83,15 @@
 			<property name="linesCountAfterNamespace" value="1"/>
 		</properties>
 	</rule>
+	<rule ref="SlevomatCodingStandard.Namespaces.UnusedUses">
+		<properties>
+			<property name="searchAnnotations" value="true"/>
+			<property name="ignoredAnnotationNames" type="array">
+				<element value="@testCase"/>
+			</property>
+		</properties>
+	</rule>
+	<rule ref="SlevomatCodingStandard.Namespaces.UselessAlias"/>
 	<rule ref="SlevomatCodingStandard.Namespaces.UseSpacing">
 		<properties>
 			<property name="linesCountBeforeFirstUse" value="1"/>
