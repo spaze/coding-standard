@@ -111,7 +111,7 @@
 		</properties>
 	</rule>
 	<rule ref="SlevomatCodingStandard.TypeHints.LongTypeHints"/>
-	<rule ref="SlevomatCodingStandard.TypeHints.PropertyTypeHintSpacing"/>
+	<rule ref="SlevomatCodingStandard.Classes.PropertyDeclaration"/>
 	<rule ref="SlevomatCodingStandard.TypeHints.ReturnTypeHintSpacing">
 		<properties>
 			<property name="spacesCountBeforeColon" value="0"/>
