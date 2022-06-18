@@ -16,6 +16,7 @@
 		<exclude name="PSR12.Traits.UseDeclaration.BlankLineAfterLastUse"/> <!-- Checked by SlevomatCodingStandard.Classes.TraitUseSpacing -->
 		<exclude name="PSR12.Traits.UseDeclaration.UseAfterBrace"/>
 	</rule>
+	<rule ref="Generic.Arrays.DisallowLongArraySyntax"/>
 	<rule ref="Generic.WhiteSpace.DisallowSpaceIndent"/>
 	<rule ref="Generic.WhiteSpace.LanguageConstructSpacing"/>
 	<rule ref="Generic.WhiteSpace.ScopeIndent">
