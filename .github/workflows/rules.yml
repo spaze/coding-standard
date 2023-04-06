@@ -1,0 +1,11 @@
+name: Rules Checks
+
+on: [push, pull_request]
+
+jobs:
+  sorted:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+    - name: Check rules are sorted
+      run: php tests/sorted.php
