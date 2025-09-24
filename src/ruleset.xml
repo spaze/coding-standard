@@ -24,6 +24,7 @@
 		<exclude name="PSR12.Traits.UseDeclaration.UseAfterBrace"/>
 	</rule>
 	<rule ref="PSR12.Files.FileHeader">
+		<exclude name="PSR12.Files.FileHeader.SpacingAfterDocblockBlock"/>
 		<exclude name="PSR12.Files.FileHeader.SpacingAfterTagBlock"/>
 	</rule>
 	<rule ref="SlevomatCodingStandard.Arrays.TrailingArrayComma"/>
