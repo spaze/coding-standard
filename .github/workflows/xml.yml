@@ -6,7 +6,7 @@ jobs:
   xml-linter:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v5
+    - uses: actions/checkout@v6
     - name: Install dependencies
       run: composer update --no-progress --no-interaction
     - name: Lint ruleset.xml
